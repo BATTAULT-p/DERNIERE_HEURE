@@ -24,6 +24,9 @@
   z-index: 22;
   overflow-y: scroll;
 }
+.navbar__link::-webkit-scrollbar {
+  display: none;
+}
 
 .container__title {
   color: white;

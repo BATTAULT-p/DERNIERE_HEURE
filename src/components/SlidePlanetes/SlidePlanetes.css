@@ -10,8 +10,40 @@
   margin-left: 22vmin;
 }
 
+::-webkit-scrollbar {
+  width: 20%;
+}
+
+::-webkit-scrollbar-track {
+display:none;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(113, 109, 109);
+  border-radius: 30%;
+  margin-bottom: 10%;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+/* .planete {
+    position: fixed;
+    list-style-type: none;
+    bottom: 0vh;
+    z-index: 1;
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+    overflow-x: scroll;
+    height: 90vmin;
+    margin-left: 22vmin;
+} */
+
 .container__planet {
   height: 100%;
+
 }
 
 .planeteItem:nth-child(1) {
@@ -101,15 +133,3 @@
   cursor: pointer;
 }
 
-/* .planete {
-    position: fixed;
-    list-style-type: none;
-    bottom: 0vh;
-    z-index: 1;
-    display: flex;
-    justify-content: space-around;
-    width: 100vw;
-    overflow-x: scroll;
-    height: 90vmin;
-    margin-left: 22vmin;
-} */

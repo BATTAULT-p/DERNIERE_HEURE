@@ -1,4 +1,8 @@
-
+.Bgvideo {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+}
 
 #bgVideo {
   margin-top: -6vh;
