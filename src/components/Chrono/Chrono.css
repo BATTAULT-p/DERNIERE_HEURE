@@ -11,14 +11,14 @@
 }
 
 .title__chrono {
-  font-size: 4vmin;
+  font-size: 4vh;
   color: white;
   font-family: var(--font-title);
 }
 
 .chrono {
   cursor: default;
-  font-size: 8vmin;
+  font-size: 8vh;
   color: rgb(159, 16, 16);
   font-family: var(--font-chrono);
   cursor: pointer;

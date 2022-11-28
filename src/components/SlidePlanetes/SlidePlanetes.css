@@ -5,7 +5,6 @@
   display: flex;
   justify-content: space-around;
   width: 400vw;
-  translate: ("360");
   overflow-x: auto;
   height: 90vmin;
   margin-left: 22vmin;
@@ -101,3 +100,16 @@
 .btn-planete {
   cursor: pointer;
 }
+
+/* .planete {
+    position: fixed;
+    list-style-type: none;
+    bottom: 0vh;
+    z-index: 1;
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+    overflow-x: scroll;
+    height: 90vmin;
+    margin-left: 22vmin;
+} */

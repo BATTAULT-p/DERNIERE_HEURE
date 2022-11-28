@@ -13,6 +13,11 @@
   src: url(./assets/fonts/titres/BigShouldersDisplay-VariableFont_wght.ttf);
 }
 
+#error404{
+  color: white;
+  font-size: 3rem;
+}
+
 a {
   text-decoration: none;
 }
@@ -36,4 +41,50 @@ ul {
 body {
   font-family: var(--font-title);
   background-color: black;
+}
+.wrongsens{
+  display: none;
+}
+
+@media screen and (max-width: 799px) {
+.wrongsens {
+    display: grid;
+    text-align: center;
+    background-color: black;
+    color: white;
+    width: 100vw;
+    height: 100vh;
+    font-size: 5vh;
+    z-index: 1000;
+  }
+  .picturewrong{
+    display: flex;
+    justify-content: center;
+
+  }
+  .wrongsens img {
+      width: auto;
+      height: 35vh;
+    }
+  .wrongsens h1 {
+   margin: 10vh 15vw 5vh 15vw;
+   padding: 0;
+}
+    
+
+#bgVideo {
+ display: none;
+}
+.container__navbar {
+  display: none;
+}
+.planete {
+  display: none;
+}
+.container__chrono{
+  display: none;
+}
+.ConteneurDetails{
+  display: none;
+}
 }

@@ -3,6 +3,7 @@ import { useState } from "react";
 import Chrono from "./components/Chrono/Chrono";
 import Transition from "./Transition";
 import "./App.css";
+import WrongOrientation from "@components/WrongOrientation";
 
 function App() {
   const [priceLevel, setPriceLevel] = useState(0);
@@ -10,6 +11,7 @@ function App() {
   return (
     <div className="App">
       <Router>
+        <WrongOrientation />
         <Transition
           priceLevel={priceLevel}
           setPriceLevel={setPriceLevel}

@@ -4,10 +4,7 @@ import { Link } from "react-router-dom";
 function Error() {
   return (
     <div>
-      <h1>404 MotherFUcker</h1>
-      <Link to="/">
-        <button type="button">home</button>
-      </Link>
+      <h1 id="error404">Error 404 not found</h1>
     </div>
   );
 }
